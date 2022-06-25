@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 26px;
+   font-family: Century Gothic;
+}
+div.menu ul{
+    float: right;
+    list-style-type: none;
+}
+div.menu ul li{
+    display: inline-block;
+}
+div.menu ul a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff transparent;
+    transition: 0.6s ease;
+}
+div.menu ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
